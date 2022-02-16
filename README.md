@@ -1,2 +1,3 @@
 # COMP-4320
-Auburn COMP-4320  Assignments
+COMP-4320 Assignments  
+Intro to Computer Networks  
