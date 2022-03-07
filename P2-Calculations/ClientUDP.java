@@ -11,7 +11,7 @@ public class ClientUDP {
             throw new IllegalArgumentException("Usage: <hostname> <port>");
         }
 
-        var input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         InetAddress hostname = InetAddress.getByName(args[0]);
         int port = Integer.parseInt(args[1]);
