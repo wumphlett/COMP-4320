@@ -11,7 +11,7 @@ public class ServerTCP {
         int port = args.length == 1 ? Integer.parseInt(args[0]) : 10011;
         int numberRead = 0;
 
-        var serverSocket = new ServerSocket(port);
+        ServerSocket serverSocket = new ServerSocket(port);
 
         RequestDecoder decoder = new RequestDecoder();
         ResponseEncoder encoder = new ResponseEncoder();
@@ -22,8 +22,8 @@ public class ServerTCP {
             try {
                 Socket clientSocket = serverSocket.accept();
 
-                var in = clientSocket.getInputStream();
-                var out = clientSocket.getOutputStream();
+                InputStream in = clientSocket.getInputStream();
+                OutputStream out = clientSocket.getOutputStream();
 
                 while (true) {
                     numberRead = in.read(buffer);

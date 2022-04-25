@@ -14,10 +14,10 @@ public class ClientTCP {
         InetAddress hostname = InetAddress.getByName(args[0]);
         int port = Integer.parseInt(args[1]);
 
-        var sock = new Socket(hostname, port);
+        Socket sock = new Socket(hostname, port);
 
-        var in = sock.getInputStream();
-        var out = sock.getOutputStream();
+        InputStream in = sock.getInputStream();
+        OutputStream out = sock.getOutputStream();
 
         RequestEncoder encoder = new RequestEncoder();
         ResponseDecoder decoder = new ResponseDecoder();
