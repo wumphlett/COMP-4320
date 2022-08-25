@@ -1,8 +1,3 @@
-# COMP 4320
-COMP 4320 Assignments  
-Intro to Computer Networks  
-
-```
 
     Total Views per Day from 2022-08-11 to 2022-08-25
 
@@ -26,4 +21,3 @@ Intro to Computer Networks
 
     Chart last updated - Thu Aug 25 09:11:39 2022 UTC
     
-```
