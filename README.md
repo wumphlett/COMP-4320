@@ -4,7 +4,7 @@ Intro to Computer Networks
 
 ```
 
-    Total Views per Day from 2022-08-11 to 2022-10-03
+    Total Views per Day from 2022-08-11 to 2022-10-04
 
     Repository Views
   174.00  ┼
@@ -23,8 +23,8 @@ Intro to Computer Networks
    32.62  ┤                             │   │
    21.75  ┤             ╭╮              │   │
    10.88  ┤    ╭─╮ ╭─╮╭╮│╰╮        ╭──╮ │   │ ╭╮  ╭─╮╭╮
-    0.00  ┼────╯ ╰─╯ ╰╯╰╯ ╰────────╯  ╰─╯   ╰─╯╰──╯ ╰╯╰─────────
+    0.00  ┼────╯ ╰─╯ ╰╯╰╯ ╰────────╯  ╰─╯   ╰─╯╰──╯ ╰╯╰──────────
 
-    Chart last updated - Mon Oct  3 01:07:16 2022 UTC
+    Chart last updated - Tue Oct  4 01:15:50 2022 UTC
     
 ```
